@@ -8,8 +8,8 @@ import uuid
 from enum import Enum, auto
 from typing import Dict, Optional
 
-import tomli
 import tomli_w
+import tomllib
 from dagger import Container, Directory
 
 from pipelines.consts import PYPROJECT_TOML_FILE_PATH, SETUP_PY_FILE_PATH
