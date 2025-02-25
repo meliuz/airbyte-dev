@@ -93,7 +93,7 @@ sealed interface AuthenticationMethod {
 
 @JsonSchemaTitle("ActiveDirectory Password")
 @JsonSchemaDescription("Connect to SQL Server using ActiveDirectory username and password.")
-class ActiveDirectoryPassword: AuthenticationMethod {
+class ActiveDirectoryPassword : AuthenticationMethod {
     companion object {
         const val NAME = "ActiveDirectoryPassword"
     }
@@ -102,7 +102,7 @@ class ActiveDirectoryPassword: AuthenticationMethod {
 
 @JsonSchemaTitle("Sql Password")
 @JsonSchemaDescription("Connect to SQL Server using database username and password.")
-class SqlPassword: AuthenticationMethod {
+class SqlPassword : AuthenticationMethod {
     companion object {
         const val NAME = "SqlPassword"
     }
