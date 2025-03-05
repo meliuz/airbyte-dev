@@ -6,6 +6,9 @@
   "raw_data_schema": "guest",
   "ssl_method": { "name": "encrypted_trust_server_certificate" },
   "authentication_method": { "name": "SqlPassword" },
-  "user": "sa",
-  "password": "replace_me"
+  "user": "replace_me_username",
+  "password": "replace_me_password",
+  "load_type": {
+    "load_type": "INSERT"
+  }
 }
