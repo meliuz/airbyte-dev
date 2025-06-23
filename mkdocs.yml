@@ -1,0 +1,6 @@
+---
+site_name: airbyte-dev
+nav:
+  - Home: README.md
+plugins:
+  - techdocs-core
